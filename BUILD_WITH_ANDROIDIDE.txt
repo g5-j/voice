@@ -1,0 +1,12 @@
+EchoRoute 2.0
+
+AndroidIDE / CodeAssist:
+1. Open the project root.
+2. Let Gradle sync using JDK 17.
+3. Build :app -> assembleDebug or assembleRelease.
+
+Command line:
+./gradlew :app:assembleDebug
+./gradlew :app:assembleRelease
+
+The project uses Android Gradle Plugin 8.7.3, compile/target SDK 36, Java 17 and official Shizuku API/provider 13.1.5.
